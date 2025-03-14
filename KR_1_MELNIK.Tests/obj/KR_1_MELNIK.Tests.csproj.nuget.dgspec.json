@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.Tests\\KR_1_MELNIK.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.csproj",
+        "projectName": "KR_1_MELNIK",
+        "projectPath": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.csproj",
+        "packagesPath": "C:\\Users\\antis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0-preview.1.25080.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.Tests\\KR_1_MELNIK.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.Tests\\KR_1_MELNIK.Tests.csproj",
+        "projectName": "KR_1_MELNIK.Tests",
+        "projectPath": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.Tests\\KR_1_MELNIK.Tests.csproj",
+        "packagesPath": "C:\\Users\\antis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.csproj": {
+                "projectPath": "C:\\Users\\antis\\Desktop\\KR_1_MELNIK-dev\\KR_1_MELNIK.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
